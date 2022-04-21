@@ -140,12 +140,12 @@ def Exeblock_init(assem, exeblock_no, PE_no, exeblock_per_PE, PE_num, data, data
     xml_inf = xml_inf['exeblock']
     
     
-    Inst_DRAM_Address = int(64 * 1024 *1024 / 8 / exeblock_per_PE / PE_num / 4 * (exeblock_no + PE_no * exeblock_per_PE ) / 4 + 1) * 4      #每一个exeblock的代码段分配分配给每个exeblock的一半
+    Inst_DRAM_Address = int(256 * 1024 *1024 / 8 / 4 / PE_num / 4 * (exeblock_no + PE_no * exeblock_per_PE ) / 4 + 1) * 4      #每一个exeblock的代码段分配分配给每个exeblock的一半
 
     inst_addr = Inst_DRAM_Address
     Starting_PC_loader = int(256) * (exeblock_no)
     # ST_Base, LD_Base = int(256 * 1024 *1024 / 8 / exeblock_per_PE / PE_num / 4 * (0 + PE_no * exeblock_per_PE) / 4  + 1) * 4 + 1024, int(256 * 1024 *1024 / 8 / exeblock_per_PE / PE_num / 4 * (0 + PE_no * exeblock_per_PE) / 4  + 1 ) * 4 + 1024     #数据段基地址在代码段之后，每个exeblock分配分配给每个exeblock的一半
-    LD_Base, ST_Base = int(64 * 1024 *1024 / 8 / exeblock_per_PE / PE_num / 4 * (0 + PE_no * exeblock_per_PE) / 4  + 1) * 4 + 1024, 0    #数据段基地址在代码段之后，每个exeblock分配分配给每个exeblock的一半，ST地址默认从0开始
+    LD_Base, ST_Base = int(256 * 1024 *1024 / 8 / 4 / PE_num / 4 * (0 + PE_no * exeblock_per_PE) / 4  + 1) * 4 + 1024, 0    #数据段基地址在代码段之后，每个exeblock分配分配给每个exeblock的一半，ST地址默认从0开始
 
     if exeblock_no == 0:
         data.insert((data_num)*(exeblock_per_PE*PE_no)+(PE_no), '//'+str(LD_Base)+'\n')

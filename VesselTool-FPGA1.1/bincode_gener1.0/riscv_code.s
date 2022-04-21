@@ -7,47 +7,47 @@ __start:
     jal datacopy
     li a0, 0x1170
     li a1, 0x12e0
-    li a2, 0xf002aaac
+    li a2, 0xf00aaaac
     jal datacopy
     li a0, 0x12e0
     li a1, 0x1450
-    li a2, 0xf0055558
+    li a2, 0xf0155558
     jal datacopy
     li a0, 0x1450
     li a1, 0x1668
-    li a2, 0xf0080004
+    li a2, 0xf0200004
     jal datacopy
     li a0, 0x1668
     li a1, 0x17d8
-    li a2, 0xf00aaaac
+    li a2, 0xf02aaaac
     jal datacopy
     li a0, 0x17d8
     li a1, 0x1948
-    li a2, 0xf00d5558
+    li a2, 0xf0355558
     jal datacopy
     li a0, 0x1948
     li a1, 0x1ab8
-    li a2, 0xf0100004
+    li a2, 0xf0400004
     jal datacopy
     li a0, 0x1ab8
     li a1, 0x1cd0
-    li a2, 0xf012aaac
+    li a2, 0xf04aaaac
     jal datacopy
     li a0, 0x1cd0
     li a1, 0x1e40
-    li a2, 0xf0155558
+    li a2, 0xf0555558
     jal datacopy
     li a0, 0x1e40
     li a1, 0x1fb0
-    li a2, 0xf0180004
+    li a2, 0xf0600004
     jal datacopy
     li a0, 0x1fb0
     li a1, 0x2120
-    li a2, 0xf01aaaac
+    li a2, 0xf06aaaac
     jal datacopy
     li a0, 0x2120
     li a1, 0x2368
-    li a2, 0xf01d5558
+    li a2, 0xf0755558
     jal datacopy
     li a0, 0x254c
     li a1, 0x264c
@@ -55,11 +55,11 @@ __start:
     jal datacopy
     li a0, 0x264c
     li a1, 0x274c
-    li a2, 0xf00aaeac
+    li a2, 0xf02aaeac
     jal datacopy
     li a0, 0x274c
     li a1, 0x284c
-    li a2, 0xf0155958
+    li a2, 0xf0555958
     jal datacopy
 li a0, 0x10000000
 li a1, 1
