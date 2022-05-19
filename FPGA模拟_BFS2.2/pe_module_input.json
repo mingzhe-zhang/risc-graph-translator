@@ -1,0 +1,17 @@
+{
+	"Expression": "A&|B",
+	"1":
+	{
+		"PE_num" : 4,
+		"exeblock_per_PE" : 2,
+		"m1_height" : 1,
+		"m1_width" : 8,
+		"m2_height" : 8,
+		"m2_width" : 8,
+		"min_data" : 0,
+		"max_data" : 1,
+		"A":"",
+		"B":""
+	}
+	
+}

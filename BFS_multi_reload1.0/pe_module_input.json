@@ -1,0 +1,19 @@
+{
+	"Expression": "A&|B",
+	"1":
+	{
+		"PE_num" : 9,
+		"exeblock_per_PE" : 4,
+		"column_tiling": "3,12",
+		"column_tiling_meaning": "for example 2,3 means 2 PEs cal 3 columns",
+		"m1_height" : 1,
+		"m1_width" : 72,
+		"m2_height" : 72,
+		"m2_width" : 72,
+		"min_data" : 0,
+		"max_data" : 1,
+		"A":"",
+		"B":""
+	}
+	
+}
