@@ -97,43 +97,43 @@ sw x1, 68(x11)
 
 
     li a0, 0x1000
-    li a1, 0x11e0
+    li a1, 0x11dc
     li a2, 0xf0000004
     jal datacopy
     li a0, 0x11e0
-    li a1, 0x13c0
+    li a1, 0x13bc
     li a2, 0xf0040004
     jal datacopy
     li a0, 0x13c0
-    li a1, 0x15a0
+    li a1, 0x159c
     li a2, 0xf0080004
     jal datacopy
     li a0, 0x15a0
-    li a1, 0x1860
+    li a1, 0x185c
     li a2, 0xf00c0004
     jal datacopy
     li a0, 0x1860
-    li a1, 0x1a40
+    li a1, 0x1a3c
     li a2, 0xf0100004
     jal datacopy
     li a0, 0x1a40
-    li a1, 0x1c20
+    li a1, 0x1c1c
     li a2, 0xf0140004
     jal datacopy
     li a0, 0x1c20
-    li a1, 0x1e00
+    li a1, 0x1dfc
     li a2, 0xf0180004
     jal datacopy
     li a0, 0x1e00
-    li a1, 0x20e0
+    li a1, 0x20dc
     li a2, 0xf01c0004
     jal datacopy
     li a0, 0x2224
-    li a1, 0x2364
+    li a1, 0x2360
     li a2, 0xf0000404
     jal datacopy
     li a0, 0x2364
-    li a1, 0x24a4
+    li a1, 0x24a0
     li a2, 0xf0100404
     jal datacopy
 li a0, 0x10000000

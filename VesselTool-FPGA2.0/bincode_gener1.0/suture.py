@@ -304,7 +304,7 @@ def main():
     for i in range(len(pe_code_list)):
         pe_code_dir = pe_code_base_dir + int(code_addr_list[i].replace('//', ''))
         pe_code_copy = ('    li a0, '+hex(pe_code_start_pos_t)+'\n',
-                        '    li a1, '+hex(pe_code_start_pos_t+len(pe_code_list[i])*4)+'\n',
+                        '    li a1, '+hex(pe_code_start_pos_t+len(pe_code_list[i])*4-4)+'\n',
                         '    li a2, '+hex(pe_code_dir)+'\n',
                         '    jal datacopy\n')
         pe_code_copy_total += ''.join(pe_code_copy)
@@ -346,7 +346,7 @@ def main():
     for i in range(len(data_list)):
         data_dir = data_dir_base_addr + int(data_addr_list[i].replace('//', ''))
         data_copy = ('    li a0, '+hex(data_start_pos_t)+'\n',
-                     '    li a1, '+hex(data_start_pos_t+len(data_list[i])*4)+'\n',
+                     '    li a1, '+hex(data_start_pos_t+len(data_list[i])*4-4)+'\n',
                      '    li a2, '+hex(data_dir)+'\n',
                      '    jal datacopy\n')  
         data_start_pos_t += len(data_list[i])*4
