@@ -1,0 +1,174 @@
+
+0 time round
+tile0:
+node0,pe3,st: 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+node0,pe7,st: 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 1 0 1 
+tile1:
+node1,pe3,st: 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+node1,pe7,st: 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+tile2:
+node0,pe3,st: 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+node0,pe7,st: 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+tile3:
+node1,pe3,st: 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+node1,pe7,st: 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 
+
+1 time round
+tile0:
+node0,pe3,st: 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 1 
+1 1 1 0 1 0 0 1 1 0 1 1 
+node0,pe7,st: 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 1 
+1 0 1 1 1 1 1 1 0 1 0 0 
+tile1:
+node1,pe3,st: 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 1 
+0 1 1 1 1 0 1 1 1 0 1 0 
+node1,pe7,st: 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 1 
+1 1 1 0 0 1 0 0 1 1 1 1 
+tile2:
+node0,pe3,st: 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 1 0 1 0 1 1 0 0 
+node0,pe7,st: 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 1 1 1 0 1 0 0 0 0 0 0 
+tile3:
+node1,pe3,st: 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 0 1 0 0 0 1 
+node1,pe7,st: 
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 1 0 0 0 1 1 0 
+
+2 time round
+tile0:
+node0,pe3,st: 
+1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 
+node0,pe7,st: 
+1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 
+tile1:
+node1,pe3,st: 
+1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 
+node1,pe7,st: 
+1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 1 1 
+tile2:
+node0,pe3,st: 
+0 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 0 1 1 0 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+node0,pe7,st: 
+0 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 0 1 1 0 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+tile3:
+node1,pe3,st: 
+0 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 0 1 1 0 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
+node1,pe7,st: 
+0 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 0 1 1 0 1 
+1 0 1 1 1 1 1 1 1 1 1 1 
+
+3 time round
+tile0:
+node0,pe3,st: 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 1 1 
+1 1 1 0 1 1 0 1 1 0 1 1 
+node0,pe7,st: 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 1 1 
+1 0 1 1 1 1 1 1 0 1 0 1 
+tile1:
+node1,pe3,st: 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 1 1 
+0 1 1 1 1 1 1 1 1 1 1 0 
+node1,pe7,st: 
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 1 1 
+1 1 1 1 0 1 0 0 1 1 1 1 
+tile2:
+node0,pe3,st: 
+1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+1 1 0 1 1 0 1 1 1 1 1 0 
+node0,pe7,st: 
+1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+1 1 1 1 1 1 0 1 0 1 1 1 
+tile3:
+node1,pe3,st: 
+1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+0 0 1 1 1 0 1 1 0 0 0 1 
+node1,pe7,st: 
+1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 0 1 0 
+1 1 0 1 1 1 1 1 1 1 1 0 
+
+硬件最终结果:
+SRAM Addr: 0,Results Data: 1
+SRAM Addr: 1,Results Data: 3
+SRAM Addr: 2,Results Data: 3
+SRAM Addr: 3,Results Data: 2
+SRAM Addr: 4,Results Data: 3
+SRAM Addr: 5,Results Data: 4
+SRAM Addr: 6,Results Data: 3
+SRAM Addr: 7,Results Data: 3
+SRAM Addr: 8,Results Data: 3
+SRAM Addr: 9,Results Data: 3
+SRAM Addr: a,Results Data: 3
+SRAM Addr: b,Results Data: 3
+SRAM Addr: c,Results Data: 3
+SRAM Addr: d,Results Data: 3
+SRAM Addr: e,Results Data: 2
+SRAM Addr: f,Results Data: 3
+SRAM Addr: 10,Results Data: 3
+SRAM Addr: 11,Results Data: 2
+SRAM Addr: 12,Results Data: 3
+SRAM Addr: 13,Results Data: 3
+SRAM Addr: 14,Results Data: 4
+SRAM Addr: 15,Results Data: 2
+SRAM Addr: 16,Results Data: 4
+SRAM Addr: 17,Results Data: 2
+SRAM Addr: 18,Results Data: 4
+SRAM Addr: 19,Results Data: 3
+SRAM Addr: 1a,Results Data: 3
+SRAM Addr: 1b,Results Data: 3
+SRAM Addr: 1c,Results Data: 3
+SRAM Addr: 1d,Results Data: 4
+SRAM Addr: 1e,Results Data: 3
+SRAM Addr: 1f,Results Data: 3
+SRAM Addr: 20,Results Data: 2
+SRAM Addr: 21,Results Data: 4
+SRAM Addr: 22,Results Data: 3
+SRAM Addr: 23,Results Data: 3
+SRAM Addr: 24,Results Data: 3
+SRAM Addr: 25,Results Data: 3
+SRAM Addr: 26,Results Data: 3
+SRAM Addr: 27,Results Data: 3
+SRAM Addr: 28,Results Data: 4
+SRAM Addr: 29,Results Data: 3
+SRAM Addr: 2a,Results Data: 4
+SRAM Addr: 2b,Results Data: 4
+SRAM Addr: 2c,Results Data: 3
+SRAM Addr: 2d,Results Data: 3
+SRAM Addr: 2e,Results Data: 2
+SRAM Addr: 2f,Results Data: 3
+所需迭代次数: 3
+
+软件真实结果：
+1 3 3 2 3 4 3 3 3 3 3 3 3 3 2 3 3 2 3 3 4 2 4 2 4 3 3 3 3 4 3 3 2 4 3 3 3 3 3 3 4 3 4 4 3 3 2 3 
