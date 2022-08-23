@@ -1,0 +1,25 @@
+{
+	"Expression": "A&|B",
+	"1":
+	{
+		"PE_num" : 8,
+		"exeblock_per_PE" : 3,
+		"column_tiling": "4,12",
+		"column_tiling_meaning": "for example 2,3 means 2 PEs calculate 3 columns, columns/PEs%exeblock_per_PE=0",
+		"column_tiling_constraints":"columns%PEs=0; PE_num%PEs=0",
+		"m1_height" : 1,
+		"m1_width" : 48,
+		"m2_height" : 48,
+		"m2_width" : 48,
+		"min_data" : 0,
+		"max_data" : 1,
+		"A":"",
+		"B":"",
+		"node":1,
+		"sparse":0,
+		"is_random":1,
+		"sparse_degree":10,
+		"sparse_degree_max":100
+	}
+	
+}
