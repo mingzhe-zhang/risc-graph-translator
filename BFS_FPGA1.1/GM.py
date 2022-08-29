@@ -159,8 +159,9 @@ level_vector = list()
 for j in range(m1_width):
     level_vector.append(0)
 level_vector[0] = 1
+level_vector_copy = level_vector.copy()
 level_counter = 1
-for i in range(4):
+while(1):
     temp = list()
     level_counter += 1
     t = np.array(vector_a[0])@np.array(matrix_b)
@@ -170,6 +171,13 @@ for i in range(4):
             if t[x]!=0:
                 level_vector[x] = level_counter
     vector_a[0] = np.array(vector_a[0]) | np.array(t)
+    
+    if operator.eq(level_vector_copy, level_vector):
+        break
+    else:
+        level_vector_copy = level_vector.copy()
+        i += 1
+    
 print('\n软件真实结果：')  
 output +=  '\n软件真实结果：\n'
 print(level_vector)
