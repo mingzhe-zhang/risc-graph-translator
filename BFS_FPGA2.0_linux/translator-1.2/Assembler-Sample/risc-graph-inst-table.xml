@@ -1,0 +1,41 @@
+<inst-table>
+<LD>
+	<num>0</num>
+</LD>
+<ADD>
+	<num>1</num>
+</ADD>
+<SUB>
+	<num>2</num>
+</SUB>
+<MUL>
+	<num>3</num>
+</MUL>
+<MAX>
+	<num>4</num>
+</MAX>
+<MIN>
+	<num>5</num>
+</MIN>
+<BITAND>
+	<num>6</num>
+</BITAND>
+<BITOR>
+	<num>7</num>
+</BITOR>
+<XNOR>
+	<num>8</num>
+</XNOR>
+<PREREAD0>
+	<num>9</num>
+</PREREAD0>
+<PREREAD1>
+	<num>10</num>
+</PREREAD1>
+<COPY>
+	<num>11</num>
+</COPY>
+<ST>
+	<num>12</num>
+</ST>
+</inst-table>

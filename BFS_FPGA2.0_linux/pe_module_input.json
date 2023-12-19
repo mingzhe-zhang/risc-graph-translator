@@ -1,0 +1,25 @@
+{
+	"Expression": "A&|B",
+	"1":
+	{
+		"input_file_name": "Graph2020/data_BFS.txt",
+		"PE_num" : 8,
+		"exeblock_per_PE" : 2,
+		"column_tiling": "2,4",
+		"column_tiling_meaning": "for example 2,3 means 2 PEs calculate 3 columns, columns/PEs%exeblock_per_PE=0",
+		"column_tiling_constraints":"columns%PEs=0; PE_num%PEs=0",
+		"m1_height" : 1,
+		"m1_width" : 32,
+		"m2_height" : 32,
+		"m2_width" : 32,
+		"min_data" : 0,
+		"max_data" : 1,
+		"A":"",
+		"B":"",
+		"node":1,
+		"sparse":0,
+		"sparse_degree":50,
+		"sparse_degree_max":100
+	}
+	
+}
