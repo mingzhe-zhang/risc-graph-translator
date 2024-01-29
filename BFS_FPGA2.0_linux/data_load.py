@@ -60,9 +60,9 @@ for i in range(len(op)-1):
     data_m2 = np.zeros((m2_height, m2_width), dtype=np.int)
     for x in data:
         x = x.rstrip('\n')
-        xx = x.split(' ')
+        xx = x.split('\t')
         #print(xx)
-        data_m2[int(xx[0])-1][int(xx[1])-1] = 1
+        data_m2[int(xx[0])][int(xx[1])] = 1
     #print(data_m2)
     print_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     res[str(i+1)][op[1]] = '['

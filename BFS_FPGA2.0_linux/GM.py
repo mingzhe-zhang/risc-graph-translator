@@ -19,7 +19,7 @@ def read_matrix(b):
         matrix_b.append(read_vector(a))
     return matrix_b
 
-with open(os.path.dirname(__file__) + '/pe_module.json', "r") as f:
+with open(os.path.dirname(__file__) + 'pe_module.json', "r") as f:
     res = json.load(f)
 expression = res['Expression']
 op = re.findall(r"[A-z]", expression)
@@ -183,7 +183,7 @@ output +=  '\n软件真实结果：\n'
 print(level_vector)
 output += ''.join([str(x)+' ' for x in level_vector])
 
-with open(os.path.dirname(__file__) + '/result.txt', "w") as r:
+with open(os.path.dirname(__file__) + 'result.txt', "w") as r:
     r.writelines(output)
-with open(os.path.dirname(__file__) + '/compare1.txt', "w") as c1:
+with open(os.path.dirname(__file__) + 'compare1.txt', "w") as c1:
     c1.writelines(real_result)
