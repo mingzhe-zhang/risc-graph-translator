@@ -1,0 +1,102 @@
+li x10, 0x20000000
+li x11, 0x30000000
+li x5, 0x16E360
+
+################## PHY cfg ##################
+
+# cfg_dly_cc_bnksel_n
+sw x0, 0(x10)
+
+# cfg_dly_gcas_wr
+addi x1 x0 1
+sw x1, 4(x10)
+
+# cfg_dly_gcas_rd
+addi x1 x0 1
+sw x1, 8(x10)
+
+# cfg_dly_g_wrrdy_n
+sw x0, 12(x10)
+
+# cfg_dly_gcadd_rd
+sw x0, 16(x10)
+
+# cfg_dly_gcadd_wr
+sw x0, 20(x10)
+
+# cfg_pulse_gcas_wr
+sw x0, 24(x10)
+
+################## mc_ctrl cfg ##################
+
+# mc_active_cfg 
+addi x1 x0 7
+sw x1, 0(x11)
+
+# mc_precharge_cfg
+addi x1 x0 6
+sw x1, 4(x11)
+
+# mc_act2pre_cfg
+addi x1 x0 9
+sw x1, 8(x11)
+
+# mc_rd2pre_cfg 
+addi x1 x0 1
+sw x1, 12(x11)
+
+# mc_wr2pre_cfg 
+addi x1 x0 7
+sw x1, 16(x11)
+
+# mc_rf_start_time_0 
+addi x1 x0 0xff
+sw x1, 20(x11)
+
+# mc_rf_start_time_1 
+add x1 x1 x5
+sw x1, 24(x11)
+
+# mc_rf_start_time_2 
+add x1 x1 x5
+sw x1, 28(x11)
+
+# mc_rf_start_time_3 
+add x1 x1 x5
+sw x1, 32(x11)
+
+# mc_rf_start_time_4 
+add x1 x1 x5
+sw x1, 36(x11)
+
+# mc_rf_start_time_5 
+add x1 x1 x5
+sw x1, 40(x11)
+
+# mc_rf_start_time_6 
+add x1 x1 x5
+sw x1, 44(x11)
+
+# mc_rf_start_time_7 
+add x1 x1 x5
+sw x1, 48(x11)
+
+# mc_rf_addr_map 
+addi x1 x0 0
+sw x1, 52(x11)
+
+# mc_rf_row_cfg 
+addi x1 x0 4
+sw x1, 56(x11)
+
+# mc_en 
+addi x1 x0 0xff
+sw x1, 60(x11)
+
+# mc_dm_en 
+addi x1 x0 0xff
+sw x1, 64(x11)
+
+# mc_refresh_cfg 		
+li x1, 0xb71b00
+sw x1, 68(x11)
