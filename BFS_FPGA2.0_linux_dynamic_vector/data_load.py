@@ -64,7 +64,13 @@ for i in range(len(op)-1):
     data_m2 = np.zeros((m2_height, m2_width), dtype=np.int)
     for x in data:
         x = x.rstrip('\n')
-        xx = x.split('\t')
+        if('\t' in x):
+            xx = x.split('\t')
+        elif(' ' in x):
+            xx = x.split(' ')
+        else:
+            print('Unknown Separator!')
+            exit(1)
         #print(xx)
         data_m2[int(xx[0])][int(xx[1])] = 1
     #print(data_m2)
